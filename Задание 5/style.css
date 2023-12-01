@@ -1,0 +1,57 @@
+* {
+    margin: 0 auto;
+}
+
+.main-out {
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    margin: 0;
+    padding: 10px;
+    border: 2px solid darkred;
+    width: 324px;
+}
+
+button {
+    margin: 0;
+    color: white;
+    background-color: darkred;
+    border-radius: 0px;
+    border: 0px;
+    height: 39px;
+    width: 120px;
+}
+
+.main-in {
+    display: none;
+    margin-top: 6px;
+    border: 2px solid darkred;
+    width: 596px;  
+}
+
+.main-in-out {
+    text-align: right;
+    margin: 10px 0;
+}
+
+.main-in-in {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.main-in-out__span {
+    padding: 3px 10px;
+    margin: 10px;
+    background-color:  rgb(58, 58, 58);
+    color: white;
+}
+
+.main-in-in__span {
+    padding: 3px 10px;
+    margin: 10px;
+    background-color: rgba(139, 0, 0, 0.726);
+    color: white;
+}

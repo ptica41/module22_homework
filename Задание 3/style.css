@@ -1,0 +1,16 @@
+.main-button {
+    background-color: blue;
+    color: white;
+}
+
+.main-button:hover {
+    transform: scale(1.05);
+}
+
+.main-button-div {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
